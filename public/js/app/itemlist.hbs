@@ -1,0 +1,7 @@
+<ul>
+    {{#each items}}
+        <li data-id="{{@index}}">{{this}} <button class="delete">Delete</button></li>
+    {{/each}}
+</ul>
+
+<div>{{items.length}} item(s) in the list</div>
